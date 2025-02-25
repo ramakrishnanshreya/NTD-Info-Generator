@@ -71,5 +71,6 @@ python app.py
 - NumPy
 - FFMPEG (for audio processing)
 
-
+## Thesis Project
+<a href="https://drive.google.com/file/d/1pdMfKh08Ul_gQDqgRObxvuRM1U_a7ypN/view?usp=sharing" target="_blank"><button>View Full Thesis Project</button></a>
 
