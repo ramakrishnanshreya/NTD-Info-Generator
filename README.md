@@ -1,5 +1,8 @@
 # LLM Powered Voice Assistant for Multimodal Healthcare Data
 
+## Run in Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tlFDV3LEUFrXvnFJ8rGAFnxdhdfJOoAm?usp=sharing)
+
 ## Overview
 This project implements a multimodal AI assistant that processes both audio and image inputs to provide insightful analyses. The system integrates OpenAI Whisper for speech-to-text conversion, a vision-language model (LLaVA) for image description, and Google Text-to-Speech (gTTS) for generating audio responses.
 
@@ -26,9 +29,6 @@ Run the following command to launch the Gradio interface:
 ```bash
 python app.py
 ```
-
-## Run in Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tlFDV3LEUFrXvnFJ8rGAFnxdhdfJOoAm?usp=sharing)
 
 ## Components
 ### 1. **Speech-to-Text (Whisper)**
