@@ -4,7 +4,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1tlFDV3LEUFrXvnFJ8rGAFnxdhdfJOoAm?usp=sharing)
 
 ## Overview
-This project implements a multimodal AI assistant that processes both audio and image inputs to provide insightful Neglected Tropical Disease (NTD) image related healthcare queries. The system integrates OpenAI Whisper for speech-to-text conversion, a vision-language model (LLaVA) for image description, and Google Text-to-Speech (gTTS) for generating audio responses.
+This project implements a multimodal AI assistant that processes a combination of audio and image inputs to provide insightful Neglected Tropical Disease (NTD) image related healthcare queries. The system integrates OpenAI Whisper for speech-to-text conversion, a vision-language model (LLaVA) for image description, and Google Text-to-Speech (gTTS) for generating audio responses.
 
 ## Features
 - **Speech-to-Text**: Converts spoken input into text using OpenAI Whisper.
@@ -54,8 +54,7 @@ python app.py
 ```
 ├── app.py                 # Main script to run the application
 ├── requirements.txt       # Dependencies
-├── assets/                # Store images and audio files
-├── logs/                  # Logs for debugging
+├── assets/                # Store images 
 ```
 
 ## Dependencies
